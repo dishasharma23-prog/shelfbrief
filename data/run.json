@@ -1,19 +1,28 @@
 {
- "generated_at": "2026-10-26T21:17:56+00:00",
+ "generated_at": "2026-10-26T23:20:19+00:00",
  "sample": false,
- "sites_checked": 3,
- "sites_ok": 3,
- "sites_skipped": [],
- "rate_limited": [
-  "Minimalist",
-  "Plum",
-  "Deconstruct"
+ "sites_checked": 10,
+ "sites_ok": 7,
+ "sites_skipped": [
+  {
+   "name": "SUGAR Cosmetics",
+   "reason": "HTTP 429 for https://in.sugarcosmetics.com/products.json?limit=250&page=1 after 4 attempts"
+  },
+  {
+   "name": "Bombay Shaving Company",
+   "reason": "HTTP 429 for https://www.bombayshavingcompany.com/products.json?limit=250&page=1 after 4 attempts"
+  },
+  {
+   "name": "Beardo",
+   "reason": "HTTP 429 for https://www.beardo.in/products.json?limit=250&page=1 after 4 attempts"
+  }
  ],
- "catalog_products": 601,
- "pages_parsed": 17,
- "clean_products": 556,
- "briefs": 11,
- "requests": 86,
- "cache_hits": 9,
- "retries": 56
+ "rate_limited": [],
+ "catalog_products": 1619,
+ "pages_parsed": 280,
+ "clean_products": 1460,
+ "briefs": 26,
+ "requests": 322,
+ "cache_hits": 0,
+ "retries": 9
 }
