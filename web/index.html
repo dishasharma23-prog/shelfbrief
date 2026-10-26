@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ShelfBrief · Disha Sharma</title>
+<meta name="description" content="ShelfBrief politely scrapes the public catalogs of Indian D2C beauty brands, cleans them into one dataset and writes grounded influencer campaign briefs. Built by Disha Sharma.">
+<meta name="theme-color" content="#F7EFEB">
+<meta property="og:title" content="ShelfBrief: scrape the shelf, write the brief">
+<meta property="og:description" content="A polite Python scraper and data pipeline for Indian D2C beauty brands that ends in influencer campaign briefs.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233B1520'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-style='italic' font-size='40' text-anchor='middle' fill='%23F7EFEB'%3Es%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&family=Caveat:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove("no-js"); document.documentElement.classList.add("js");</script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/"
+} }
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+</head>
+<body>
+<!--BODY-->
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark"><span class="lm-a">Shelf</span><span class="lm-s">/</span><span class="lm-b">Brief</span></div>
+  <div class="loader-foot mono"><span id="loader-msg">Reading the shelf</span><span id="loader-count">0</span></div>
+  <div class="loader-bar"><span id="loader-bar"></span></div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor-ring"><span class="cursor-label"></span></span><span class="cursor-dot"></span></div>
+
+<header class="topbar">
+  <a class="wordmark" href="#top" aria-label="ShelfBrief, back to top">Shelf<span>/</span>Brief</a>
+  <nav class="topnav" aria-label="Sections">
+    <a href="#polite"><span class="mono">01</span> Ask</a>
+    <a href="#clean"><span class="mono">02</span> Clean</a>
+    <a href="#insights"><span class="mono">03</span> Read</a>
+    <a href="#briefs"><span class="mono">04</span> Brief</a>
+  </nav>
+  <a class="byline" href="#credits">Disha Sharma</a>
+</header>
+
+<div class="chapter-pill mono" id="chapter-pill" aria-hidden="true"><span class="cp-num">00</span><span class="cp-name">The shelf</span></div>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="badge"><span class="dot" aria-hidden="true"></span><span id="badge-text">Real products · robots.txt respected</span></p>
+      <h1 id="hero-title" class="display">
+        <span class="line">Scrape the shelf.</span>
+        <span class="line it">Write the brief.</span>
+      </h1>
+      <p class="lede">A polite Python crawler reads the public catalogs of Indian D2C beauty brands, cleans every product into one dataset and turns the strongest into influencer campaign briefs.</p>
+      <div class="cta-row">
+        <a class="btn solid ring" href="#briefs" data-cursor="Read">Read the briefs</a>
+        <a class="btn ghost" href="#polite" data-cursor="Scroll">See how it works</a>
+        <span class="scribble scribble-polite" aria-hidden="true">
+          <svg viewBox="0 0 64 40" fill="none"><path class="draw" d="M60 30c-14 5-34 3-50-14"/><path class="draw" d="M9 30 8 15l14-1"/></svg>
+          <span class="scribble-text">politely scraped</span>
+        </span>
+      </div>
+    </div>
+    <div class="scribble scribble-price" aria-hidden="true">
+      <span class="scribble-text">every price, per 100 ml</span>
+      <svg viewBox="0 0 110 96" fill="none"><path class="draw" d="M96 8C66 10 36 26 30 56c-3 14-1 24 2 32"/><path class="draw" d="M20 76l12 13 11-14"/></svg>
+    </div>
+    <div class="carousel" id="carousel" role="region" aria-roledescription="carousel" aria-label="Real scraped products. Drag to browse." data-cursor="Drag">
+      <div class="carousel-track" id="carousel-track"></div>
+    </div>
+  </section>
+
+  <div class="sample-note" id="sample-note" hidden>
+    <p><strong>Sample data.</strong> These brands are fictional test stores that ship with the repo. Run <code>python -m shelfbrief run</code> to fill the page with real catalogs.</p>
+  </div>
+
+  <!-- 01 -->
+  <section class="chapter ch-polite" id="polite" aria-labelledby="polite-title" data-chapter="01" data-name="Ask first">
+    <div class="ch-grid">
+      <div class="ch-head">
+        <p class="ch-num"><span class="mono">01</span> Polite scraping</p>
+        <h2 id="polite-title" class="display">It asks before<br><em>it reads.</em></h2>
+        <p class="ch-lede">Every request is checked against the site's robots.txt first. Requests to one store are at least 1.5 seconds apart. When a store answers <code>429 Too Many Requests</code>, the crawler waits as long as the store asks and doesn't push.</p>
+      </div>
+      <figure class="log" aria-label="Request log from the last run">
+        <figcaption class="log-head mono"><span>shelfbrief run</span><span id="log-ua">ShelfBriefBot/1.0</span></figcaption>
+        <ol class="log-body mono" id="log"></ol>
+      </figure>
+    </div>
+    <dl class="numerals" id="numerals"></dl>
+    <ul class="rules">
+      <li><h3>Reads robots.txt first</h3><p>An RFC 9309 parser with wildcards and <code>$</code> anchors. Python's built-in parser ignores wildcards, and Shopify's default robots.txt is full of them.</p></li>
+      <li><h3>Backs off when asked</h3><p>Retries only on 429 and 5xx, with exponential backoff, honouring <code>Retry-After</code>. A 404 is never retried.</p></li>
+      <li><h3>Says who it is</h3><p>Each request carries <code>ShelfBriefBot/1.0</code> and a link to the source, so a site owner can see what it is.</p></li>
+      <li><h3>Public product data only</h3><p>Catalog JSON and product pages. No logins, no checkout, no customer reviews or personal data.</p></li>
+    </ul>
+  </section>
+
+  <!-- 02 -->
+  <section class="chapter ch-clean" id="clean" aria-labelledby="clean-title" data-chapter="02" data-name="Clean">
+    <div class="ch-head ch-head-wide">
+      <p class="ch-num"><span class="mono">02</span> Raw to clean</p>
+      <h2 id="clean-title" class="display">From markup<br><em>to a label you can compare.</em></h2>
+      <p class="ch-lede" id="clean-lede">Below is one real product exactly as the store's catalog served it, next to the row ShelfBrief keeps. Price, MRP and pack size come from the same variant, so the discount and price per 100 ml are real.</p>
+    </div>
+    <div class="transform" id="transform">
+      <figure class="raw">
+        <figcaption class="mono" id="raw-src">/products.json</figcaption>
+        <pre class="mono" id="raw" tabindex="0" aria-label="Raw catalog record"></pre>
+      </figure>
+      <div class="arrow" aria-hidden="true"><span></span></div>
+      <article class="label-card" id="label-card" aria-label="Cleaned product record"></article>
+    </div>
+    <ol class="clean-steps" id="clean-steps"></ol>
+  </section>
+
+  <!-- 03 -->
+  <section class="chapter ch-insights" id="insights" aria-labelledby="insights-title" data-chapter="03" data-name="Read the shelf">
+    <div class="ch-head ch-head-wide">
+      <p class="ch-num"><span class="mono">03</span> Insights</p>
+      <h2 id="insights-title" class="display">What the shelf<br><em>is really charging.</em></h2>
+    </div>
+    <div class="headline-stat" id="headline-stat"></div>
+    <div class="charts">
+      <figure class="chart chart-price" id="fig-price"></figure>
+      <figure class="chart chart-ingredients" id="fig-ingredients"></figure>
+      <figure class="chart chart-claims" id="fig-claims"></figure>
+    </div>
+    <div class="brand-row" id="brand-row"></div>
+
+    <div class="explorer" id="shelf">
+      <div class="explorer-head">
+        <h3 class="display-s">The whole shelf</h3>
+        <div class="controls">
+          <label class="field"><span>Search</span><input id="q" type="search" placeholder="niacinamide, sunscreen" autocomplete="off"></label>
+          <label class="field"><span>Brand</span><select id="f-brand"></select></label>
+          <label class="field"><span>Category</span><select id="f-cat"></select></label>
+          <span class="count mono" id="count" aria-live="polite"></span>
+        </div>
+      </div>
+      <div class="table-scroll" tabindex="0" aria-label="Product table"><table class="shelf-table" id="shelf-table"></table></div>
+      <div class="more-row" id="more-row"></div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="chapter ch-briefs" id="briefs" aria-labelledby="briefs-title" data-chapter="04" data-name="Brief">
+    <div class="briefs-pin">
+      <div class="ch-head briefs-head">
+        <p class="ch-num"><span class="mono">04</span> Campaign briefs</p>
+        <h2 id="briefs-title" class="display">Briefs a creator<br><em>can shoot tomorrow.</em></h2>
+        <p class="ch-lede">For each brand, the best-reviewed, newest and most claim-rich products get a brief: who it's for, which creators fit, three opening hooks and the formats to shoot. Proof points are only claims printed on the brand's own page, with ASCI disclosure rules built in.</p>
+        <p class="briefs-count mono" id="briefs-count"></p>
+      </div>
+      <div class="track-wrap" id="track-wrap" tabindex="0" aria-label="Campaign briefs, scroll sideways">
+        <div class="track" id="brief-list"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site" id="credits">
+  <div class="credit">
+    <p class="credit-pre">Built by</p>
+    <p class="credit-name display">Disha <em>Sharma</em></p>
+  </div>
+  <div class="foot-grid">
+    <p class="foot-about">I built ShelfBrief to show how I'd give an influencer marketing team a live read of the beauty shelf: polite scraping, clean data, and briefs grounded in what brands actually claim.</p>
+    <ul class="foot-links">
+      <li><a href="https://github.com/dishasharma23-prog" target="_blank" rel="noopener" data-cursor="Open">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/disha-sharma-8bbb45287" id="linkedin" target="_blank" rel="noopener" data-cursor="Open">LinkedIn</a></li>
+    </ul>
+    <p class="foot-stack mono">Python, httpx, BeautifulSoup, pandas, SQLite, pytest, GitHub Actions. Site: three.js, GSAP, Lenis.</p>
+    <p class="foot-run mono" id="foot-run"></p>
+  </div>
+</footer>
+<!--/BODY-->
+<script>window.SHELF_DATA = null;</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

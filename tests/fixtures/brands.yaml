@@ -1,0 +1,7 @@
+# Fictional brands served by tests/fixtures/web.json (used by tests and `python -m shelfbrief demo`).
+brands:
+  - {slug: dewleaf, name: Dewleaf, url: "https://dewleaf.example", segment: Skincare}
+  - {slug: kesari, name: Kesari Botanicals, url: "https://kesaribotanicals.example", segment: Hair & Ayurveda}
+  - {slug: monsoonmen, name: Monsoon Men, url: "https://monsoonmen.example", segment: Men's Grooming}
+  - {slug: glowcart, name: GlowCart, url: "https://glowcart.example", segment: Makeup}
+  - {slug: herbhouse, name: HerbHouse, url: "https://herbhouse.example", segment: Wellness}

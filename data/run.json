@@ -1,0 +1,19 @@
+{
+ "generated_at": "2026-10-26T21:17:56+00:00",
+ "sample": false,
+ "sites_checked": 3,
+ "sites_ok": 3,
+ "sites_skipped": [],
+ "rate_limited": [
+  "Minimalist",
+  "Plum",
+  "Deconstruct"
+ ],
+ "catalog_products": 601,
+ "pages_parsed": 17,
+ "clean_products": 556,
+ "briefs": 11,
+ "requests": 86,
+ "cache_hits": 9,
+ "retries": 56
+}

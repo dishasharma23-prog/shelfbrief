@@ -1,0 +1,15 @@
+# Indian D2C beauty and personal-care brands to scrape.
+# These are CANDIDATES: run `python -m shelfbrief check` first. It reads each site's robots.txt and tests
+# for a public Shopify catalog, and the scraper automatically skips any site that fails either check.
+# Set `enabled: false` to leave a brand out.
+brands:
+  - {slug: minimalist,   name: Minimalist,              url: "https://beminimalist.co",           segment: Skincare}
+  - {slug: plum,         name: Plum,                    url: "https://plumgoodness.com",          segment: Skincare}
+  - {slug: foxtale,      name: Foxtale,                 url: "https://www.foxtale.in",            segment: Skincare}
+  - {slug: dermaco,      name: The Derma Co,            url: "https://thedermaco.com",            segment: Skincare}
+  - {slug: deconstruct,  name: Deconstruct,             url: "https://thedeconstruct.in",         segment: Skincare}
+  - {slug: pilgrim,      name: Pilgrim,                 url: "https://discoverpilgrim.com",       segment: Skin & Hair}
+  - {slug: mcaffeine,    name: mCaffeine,               url: "https://www.mcaffeine.com",         segment: Body & Skin}
+  - {slug: sugar,        name: SUGAR Cosmetics,         url: "https://in.sugarcosmetics.com",     segment: Makeup}
+  - {slug: bsc,          name: Bombay Shaving Company,  url: "https://www.bombayshavingcompany.com", segment: Men's Grooming}
+  - {slug: beardo,       name: Beardo,                  url: "https://www.beardo.in",             segment: Men's Grooming}
