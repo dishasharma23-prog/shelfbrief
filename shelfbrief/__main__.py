@@ -1,4 +1,4 @@
-"""Command line: python -m shelfbrief {check,scrape,clean,brief,run,demo}"""
+"""Command line: python -m shelfbrief {check,scrape,clean,brief,run,demo,quality}"""
 from __future__ import annotations
 
 import argparse
@@ -15,7 +15,7 @@ SITE_DATA = ROOT / "web" / "data" / "site.json"
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="shelfbrief", description="Scrape the shelf. Write the brief.")
-    ap.add_argument("command", choices=["check", "scrape", "clean", "brief", "run", "demo"])
+    ap.add_argument("command", choices=["check", "scrape", "clean", "brief", "run", "demo", "quality"])
     ap.add_argument("--config", default=str(ROOT / "brands.yaml"), help="brands file (default: brands.yaml)")
     ap.add_argument("--data-dir", default=str(ROOT / "data"))
     ap.add_argument("--brands", help="comma-separated slugs to limit the run to")
@@ -33,6 +33,11 @@ def main(argv=None):
     data_dir = Path(a.data_dir)
     only = a.brands.split(",") if a.brands else None
     use_llm = False if a.no_llm else None
+
+    if a.command == "quality":
+        from . import quality
+        print(f"Data-quality rules on {data_dir}:")
+        return 0 if quality.report(quality.check_files(data_dir)) else 1
 
     if a.command == "demo":
         from .demo import FIXTURES, fake_web_transport

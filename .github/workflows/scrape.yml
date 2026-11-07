@@ -29,11 +29,15 @@ jobs:
         run: |
           python - <<'PY'
           import json, os
+          from pathlib import Path
+          from shelfbrief import quality
           new = json.load(open("web/data/site.json", encoding="utf-8"))
           old = json.load(open("/tmp/site.previous.json", encoding="utf-8"))
           n_new, n_old = len(new.get("products", [])), len(old.get("products", []))
-          ok = n_new >= max(50, int(n_old * 0.6)) and len(new.get("briefs", [])) > 0
-          print(f"products: {n_old} -> {n_new}; keeping new data: {ok}")
+          print("data-quality rules:")
+          clean = quality.report(quality.check_files(Path("data")))
+          ok = n_new >= max(50, int(n_old * 0.6)) and len(new.get("briefs", [])) > 0 and clean
+          print(f"products: {n_old} -> {n_new}; quality rules passed: {clean}; keeping new data: {ok}")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"ok={'true' if ok else 'false'}\n")
           PY

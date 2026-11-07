@@ -31,6 +31,15 @@ def test_judgeme_badge_fallback_and_og_tags():
     assert (p["rating"], p["review_count"], p["rating_source"]) == (4.3, 2890, "judge.me")
 
 
+def test_unreviewed_product_has_no_rating():
+    # a review widget showing 0.0 with no reviews means "not rated yet", not a zero-star product
+    judgeme = '<div class="jdgm-prev-badge" data-average-rating="0.00" data-number-of-reviews="0"></div>'
+    jsonld = '<script type="application/ld+json">{"@type":"Product","name":"New","aggregateRating":{"ratingValue":0,"reviewCount":0}}</script>'
+    for html in (judgeme, jsonld):
+        p = parse_product_page(html)
+        assert p["rating"] is None and p["review_count"] is None and p["rating_source"] is None
+
+
 def test_sizes_normalise():
     assert parse_size("Shampoo 1 L") == (1000, "ml")
     assert parse_size("Face Pack 50gm") == (50, "g")

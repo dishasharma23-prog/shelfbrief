@@ -106,4 +106,7 @@ def parse_product_page(html: str) -> dict:
         out["currency"] = out["currency"] or meta("product:price:currency") or meta("og:price:currency")
     if out["review_count"] is not None:
         out["review_count"] = int(out["review_count"])
+    # review widgets show "0.0" before anyone has reviewed a product: that is "no rating yet", not a zero-star score
+    if out["rating"] is not None and (out["review_count"] == 0 or out["rating"] == 0):
+        out["rating"] = out["review_count"] = out["rating_source"] = None
     return out

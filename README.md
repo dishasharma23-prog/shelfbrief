@@ -29,10 +29,11 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 
-python -m pytest -q              # 21 tests, all offline
+python -m pytest -q              # 33 tests, all offline
 python -m shelfbrief demo        # full pipeline on fictional test stores, no internet needed
 python -m shelfbrief check       # which real brands allow it (robots.txt + public catalog)
 python -m shelfbrief run         # scrape, clean and brief the real brands in brands.yaml
+python -m shelfbrief quality     # SQL data-quality rules on the scraped table
 ```
 
 On macOS or Linux, activate with `source .venv/bin/activate`.
@@ -63,6 +64,13 @@ Set `GEMINI_API_KEY` and the creative parts of each brief (positioning, audience
 $env:GEMINI_API_KEY = "your-key"
 python -m shelfbrief run
 ```
+
+## Data quality
+
+`shelfbrief/quality.py` holds the rules the product table must pass, written as SQL so they run directly on
+`shelf.sqlite`: every product has a title, URL and positive price; price is never above MRP; the stored discount matches
+price and MRP; price per 100 ml/g matches price and size; no duplicate products or URLs; ratings are 0-5 and backed by
+at least one review. The weekly workflow runs them on each new scrape and only publishes data that passes.
 
 ## Built to be a good guest
 
