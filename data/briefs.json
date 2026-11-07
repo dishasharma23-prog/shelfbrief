@@ -1,6 +1,78 @@
 [
  {
   "product": {
+   "brand": "The Derma Co",
+   "title": "1% Hyaluronic Sunscreen Aqua Gel In Vivo Tested (ISO 24444:2019 Certified, CTRI/2025/02/080287), UVA: 39.984 (PA++++) (PPD 39) with SPF 50 & PA++++ , Dewy Finish for All Skin Types- 50g",
+   "category": "Sunscreen",
+   "url": "https://thedermaco.com/products/1-hyaluronic-sunscreen-aqua-gel",
+   "price_inr": 499.0,
+   "mrp_inr": 499.0,
+   "discount_pct": 0.0,
+   "size": 50.0,
+   "size_unit": "g",
+   "price_position": "Mid",
+   "ingredients": [
+    "Niacinamide",
+    "Hyaluronic Acid"
+   ],
+   "benefits": [
+    "Sun Protection",
+    "Oil Control",
+    "Hydration",
+    "Anti-Ageing",
+    "Pigmentation & Dark Spots",
+    "Long-Lasting"
+   ],
+   "free_from": [],
+   "strengths": [
+    "1% Hyaluronic Acid"
+   ],
+   "spf": 50.0,
+   "hours": [
+    24,
+    12
+   ],
+   "rating": 4.9,
+   "review_count": 974.0
+  },
+  "one_liner": "The Derma Co's ₹499 (50 g) 1% Hyaluronic Acid sunscreen for daily sun protection, mid-priced for its category.",
+  "audience": [
+   "Daily commuters and outdoor-heavy routines",
+   "Oily-skin users in humid cities",
+   "Dry or dehydrated skin, long hours in air-conditioning"
+  ],
+  "creator_niches": [
+   "Skincare educators",
+   "Travel & outdoor creators",
+   "Fitness creators"
+  ],
+  "hooks": [
+   "1% Hyaluronic Acid, every day for four weeks. Here's my honest diary.",
+   "Does this SPF 50 pass the white-cast test? Let's find out outdoors.",
+   "What Niacinamide actually does, in 30 seconds."
+  ],
+  "formats": [
+   "White-cast and finish test across skin tones",
+   "Midday reapplication over makeup",
+   "Full commute-day wear test"
+  ],
+  "proof_points": [
+   "1% Hyaluronic Acid",
+   "SPF 50",
+   "Niacinamide",
+   "24-hour claim on the product page",
+   "Rated 4.9/5 from 974 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
+   "Show a realistic amount and mention reapplying through the day."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
    "brand": "SUGAR Cosmetics",
    "title": "All Set To Go Translucent Face Powder",
    "category": "Other",
@@ -140,7 +212,7 @@
    "discount_pct": 24.9,
    "size": 10.0,
    "size_unit": "ml",
-   "price_position": "Mid",
+   "price_position": "Premium",
    "ingredients": [
     "Vitamin C",
     "Centella / Cica"
@@ -159,9 +231,9 @@
    "spf": null,
    "hours": [],
    "rating": 4.35,
-   "review_count": 1341.0
+   "review_count": 1344.0
   },
-  "one_liner": "Deconstruct's ₹262 (10 ml) 10% Vitamin C serum for a brighter glow, mid-priced for its category.",
+  "one_liner": "Deconstruct's ₹262 (10 ml) 10% Vitamin C serum for a brighter glow, premium-priced for its category.",
   "audience": [
    "Skincare beginners after an even, glowing look",
    "People dealing with tanning, dark spots or uneven tone",
@@ -175,7 +247,7 @@
   "hooks": [
    "10% Vitamin C, every day for four weeks. Here's my honest diary.",
    "What Vitamin C actually does, in 30 seconds.",
-   "1,341 people rated this 4.3/5. I tried it to see why."
+   "1,344 people rated this 4.3/5. I tried it to see why."
   ],
   "formats": [
    "28-day routine diary, same light and angle each week",
@@ -185,7 +257,7 @@
   "proof_points": [
    "10% Vitamin C",
    "0.5% Centella / Cica",
-   "Rated 4.3/5 from 1,341 reviews on the brand site"
+   "Rated 4.3/5 from 1,344 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -261,65 +333,6 @@
    "Only use the proof points listed here; they are the claims printed on the product page.",
    "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
    "Mention a patch test and gradual introduction, since this contains an active acid or retinoid."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "SUGAR Cosmetics",
-   "title": "Bling Leader Illuminating Moisturizer",
-   "category": "Moisturiser",
-   "url": "https://in.sugarcosmetics.com/products/bling-leader-illuminating-moisturizer",
-   "price_inr": 699.0,
-   "mrp_inr": 699.0,
-   "discount_pct": 0.0,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [],
-   "benefits": [
-    "Brightening",
-    "Hydration",
-    "Oil Control",
-    "Sun Protection",
-    "Long-Lasting"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [
-    5
-   ],
-   "rating": 4.43,
-   "review_count": 1039.0
-  },
-  "one_liner": "SUGAR Cosmetics' ₹699 moisturizer for a brighter glow.",
-  "audience": [
-   "Skincare beginners after an even, glowing look",
-   "Dry or dehydrated skin, long hours in air-conditioning",
-   "Oily-skin users in humid cities"
-  ],
-  "creator_niches": [
-   "Skincare educators",
-   "Minimal-routine creators",
-   "Makeup artists (prep step)"
-  ],
-  "hooks": [
-   "1,039 people rated this 4.4/5. I tried it to see why.",
-   "The moisturiser I'd hand a friend who's just starting out."
-  ],
-  "formats": [
-   "Texture swatch with an absorption timer",
-   "Under-makeup wear test",
-   "Night routine reel"
-  ],
-  "proof_points": [
-   "5-hour claim on the product page",
-   "Rated 4.4/5 from 1,039 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
   ],
   "written_by": "rules"
  },
@@ -514,65 +527,6 @@
  },
  {
   "product": {
-   "brand": "The Derma Co",
-   "title": "Ultra Matte Sunscreen Gel for Oily & Acne-Prone Skin - 50g",
-   "category": "Sunscreen",
-   "url": "https://thedermaco.com/products/ultra-matte-sunscreen-gel",
-   "price_inr": 699.0,
-   "mrp_inr": 699.0,
-   "discount_pct": 0.0,
-   "size": 50.0,
-   "size_unit": "g",
-   "price_position": "Premium",
-   "ingredients": [],
-   "benefits": [
-    "Acne & Blemishes",
-    "Oil Control",
-    "Sun Protection",
-    "Barrier Repair",
-    "Long-Lasting"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": 60.0,
-   "hours": [],
-   "rating": 4.9,
-   "review_count": 363.0
-  },
-  "one_liner": "The Derma Co's ₹699 (50 g) sunscreen for acne-prone skin, premium-priced for its category.",
-  "audience": [
-   "Teens and 20-somethings with oily, acne-prone skin",
-   "Oily-skin users in humid cities",
-   "Daily commuters and outdoor-heavy routines"
-  ],
-  "creator_niches": [
-   "Skincare educators",
-   "Travel & outdoor creators",
-   "Fitness creators"
-  ],
-  "hooks": [
-   "Does this SPF 60 pass the white-cast test? Let's find out outdoors.",
-   "363 people rated this 4.9/5. I tried it to see why."
-  ],
-  "formats": [
-   "White-cast and finish test across skin tones",
-   "Midday reapplication over makeup",
-   "Full commute-day wear test"
-  ],
-  "proof_points": [
-   "SPF 60",
-   "Rated 4.9/5 from 363 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page.",
-   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
-   "Show a realistic amount and mention reapplying through the day."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
    "brand": "Foxtale",
    "title": "12% Niacinamide Clarifying Serum",
    "category": "Serum & Face Oil",
@@ -625,6 +579,69 @@
   "proof_points": [
    "12% Niacinamide",
    "Rated 4.8/5 from 381 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "SUGAR Cosmetics",
+   "title": "Magic Wand Waterproof Concealer",
+   "category": "Face Makeup",
+   "url": "https://in.sugarcosmetics.com/products/magic-wand-waterproof-concealer",
+   "price_inr": 637.0,
+   "mrp_inr": 849.0,
+   "discount_pct": 25.0,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [],
+   "benefits": [
+    "Long-Lasting",
+    "Brightening",
+    "Acne & Blemishes",
+    "Anti-Ageing",
+    "Pigmentation & Dark Spots",
+    "Barrier Repair"
+   ],
+   "free_from": [
+    "Vegan",
+    "Cruelty-Free"
+   ],
+   "strengths": [],
+   "spf": null,
+   "hours": [],
+   "rating": 4.03,
+   "review_count": 1066.0
+  },
+  "one_liner": "SUGAR Cosmetics' ₹637 face makeup for all-day wear.",
+  "audience": [
+   "Makeup wearers who need all-day wear",
+   "Bridal and occasion shoppers"
+  ],
+  "creator_niches": [
+   "Makeup artists",
+   "GRWM creators",
+   "Bridal & occasion creators"
+  ],
+  "hooks": [
+   "1,066 people rated this 4.0/5. I tried it to see why.",
+   "₹637 instead of ₹849: worth it?",
+   "Vegan and still effective? My honest take."
+  ],
+  "formats": [
+   "9-to-9 wear test",
+   "Shade match across skin tones",
+   "GRWM"
+  ],
+  "proof_points": [
+   "Vegan",
+   "Cruelty-Free",
+   "Rated 4.0/5 from 1,066 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -732,7 +749,7 @@
    "spf": null,
    "hours": [],
    "rating": 4.43,
-   "review_count": 516.0
+   "review_count": 518.0
   },
   "one_liner": "Deconstruct's ₹224 (100 g) 2% Salicylic Acid face wash for oily skin, value-priced for its category.",
   "audience": [
@@ -748,7 +765,7 @@
   "hooks": [
    "2% Salicylic Acid, every day for four weeks. Here's my honest diary.",
    "What Niacinamide actually does, in 30 seconds.",
-   "516 people rated this 4.4/5. I tried it to see why."
+   "518 people rated this 4.4/5. I tried it to see why."
   ],
   "formats": [
    "Texture close-up and after-wash skin feel",
@@ -759,7 +776,7 @@
    "2% Salicylic Acid",
    "1.5% Niacinamide",
    "Non-Comedogenic",
-   "Rated 4.4/5 from 516 reviews on the brand site"
+   "Rated 4.4/5 from 518 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -813,6 +830,72 @@
   ],
   "proof_points": [
    "Rated 4.8/5 from 684 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "mCaffeine",
+   "title": "Blueberry Swirl Serum In Body Lotion With Niacinamide",
+   "category": "Serum & Face Oil",
+   "url": "https://www.mcaffeine.com/products/blueberry-swirl-serum-in-body-lotion",
+   "price_inr": 399.0,
+   "mrp_inr": 399.0,
+   "discount_pct": 0.0,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [
+    "Niacinamide",
+    "Caffeine"
+   ],
+   "benefits": [
+    "Hydration",
+    "Brightening",
+    "Anti-Ageing",
+    "Pigmentation & Dark Spots",
+    "Barrier Repair",
+    "Long-Lasting"
+   ],
+   "free_from": [],
+   "strengths": [],
+   "spf": null,
+   "hours": [
+    72
+   ],
+   "rating": 4.67,
+   "review_count": 221.0
+  },
+  "one_liner": "mCaffeine's ₹399 Niacinamide body lotion for hydration.",
+  "audience": [
+   "Dry or dehydrated skin, long hours in air-conditioning",
+   "Skincare beginners after an even, glowing look",
+   "25-40s starting a preventive routine"
+  ],
+  "creator_niches": [
+   "Ingredient-explainer skinfluencers",
+   "Dermatologist creators",
+   "Routine-diary creators"
+  ],
+  "hooks": [
+   "What Niacinamide actually does, in 30 seconds.",
+   "221 people rated this 4.7/5. I tried it to see why."
+  ],
+  "formats": [
+   "28-day routine diary, same light and angle each week",
+   "30-second ingredient explainer",
+   "Where it goes in an AM/PM layering routine"
+  ],
+  "proof_points": [
+   "Niacinamide",
+   "Caffeine",
+   "72-hour claim on the product page",
+   "Rated 4.7/5 from 221 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -952,7 +1035,7 @@
    "spf": null,
    "hours": [],
    "rating": 4.76,
-   "review_count": 196.0
+   "review_count": 197.0
   },
   "one_liner": "Minimalist's ₹239 (100 ml) Salicylic Acid shampoo for dandruff, premium-priced for its category.",
   "audience": [
@@ -967,7 +1050,7 @@
   ],
   "hooks": [
    "What Salicylic Acid actually does, in 30 seconds.",
-   "196 people rated this 4.8/5. I tried it to see why."
+   "197 people rated this 4.8/5. I tried it to see why."
   ],
   "formats": [
    "Wash-day routine",
@@ -976,7 +1059,7 @@
   ],
   "proof_points": [
    "Salicylic Acid",
-   "Rated 4.8/5 from 196 reviews on the brand site"
+   "Rated 4.8/5 from 197 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -1152,58 +1235,6 @@
  },
  {
   "product": {
-   "brand": "Beardo",
-   "title": "Blackout Powder (4g)",
-   "category": "Beard & Shaving",
-   "url": "https://www.beardo.in/products/beardo-blackout-powder-4g",
-   "price_inr": 449.0,
-   "mrp_inr": 699.0,
-   "discount_pct": 35.8,
-   "size": 4.0,
-   "size_unit": "g",
-   "price_position": "Premium",
-   "ingredients": [],
-   "benefits": [
-    "Hair Fall"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [],
-   "rating": 4.5,
-   "review_count": 603.0
-  },
-  "one_liner": "Beardo's ₹449 (4 g) beard & shaving for hair fall, premium-priced for its category.",
-  "audience": [
-   "Men building a first grooming routine",
-   "Bearded men who want a neater look"
-  ],
-  "creator_niches": [
-   "Men's grooming creators",
-   "Fitness creators",
-   "Office-wear creators"
-  ],
-  "hooks": [
-   "603 people rated this 4.5/5. I tried it to see why.",
-   "₹449 instead of ₹699: worth it?"
-  ],
-  "formats": [
-   "Grooming routine POV",
-   "Office-ready in 5 minutes",
-   "Before/after trim"
-  ],
-  "proof_points": [
-   "Rated 4.5/5 from 603 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page.",
-   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
    "brand": "Minimalist",
    "title": "B12 + Repair Complex 5.5% Face Moisturizer",
    "category": "Moisturiser",
@@ -1225,8 +1256,8 @@
    "strengths": [],
    "spf": null,
    "hours": [],
-   "rating": 4.79,
-   "review_count": 162.0
+   "rating": 4.78,
+   "review_count": 166.0
   },
   "one_liner": "Minimalist's ₹269 (30 g) Ceramides moisturizer for hydration, premium-priced for its category.",
   "audience": [
@@ -1240,7 +1271,7 @@
   ],
   "hooks": [
    "What Ceramides actually does, in 30 seconds.",
-   "162 people rated this 4.8/5. I tried it to see why."
+   "166 people rated this 4.8/5. I tried it to see why."
   ],
   "formats": [
    "Texture swatch with an absorption timer",
@@ -1249,7 +1280,7 @@
   ],
   "proof_points": [
    "Ceramides",
-   "Rated 4.8/5 from 162 reviews on the brand site"
+   "Rated 4.8/5 from 166 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -1260,52 +1291,61 @@
  {
   "product": {
    "brand": "Minimalist",
-   "title": "Minimalist B12 + Repair Complex 5.5% Face Moisturizer 10g",
-   "category": "Moisturiser",
-   "url": "https://beminimalist.co/products/🎁-minimalist-b12-repair-complex-5-5-face-moisturizer-10g",
-   "price_inr": 134.0,
-   "mrp_inr": 149.0,
-   "discount_pct": 10.1,
-   "size": 10.0,
-   "size_unit": "g",
-   "price_position": "Premium",
-   "ingredients": [],
+   "title": "Kojic + Mandelic 2.5% Body Lotion",
+   "category": "Body Care",
+   "url": "https://beminimalist.co/products/kojic-mandelic-body-lotion",
+   "price_inr": 359.0,
+   "mrp_inr": 399.0,
+   "discount_pct": 10.0,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [
+    "Niacinamide",
+    "Kojic Acid"
+   ],
    "benefits": [
     "Hydration",
-    "Barrier Repair"
+    "Pigmentation & Dark Spots"
    ],
    "free_from": [],
-   "strengths": [],
+   "strengths": [
+    "2.5% Kojic Acid"
+   ],
    "spf": null,
    "hours": [],
-   "rating": 4.76,
-   "review_count": 229.0
+   "rating": 4.5,
+   "review_count": 8.0
   },
-  "one_liner": "Minimalist's ₹134 (10 g) moisturizer for hydration, premium-priced for its category.",
+  "one_liner": "Minimalist's ₹359 2.5% Kojic Acid body lotion for hydration.",
   "audience": [
    "Dry or dehydrated skin, long hours in air-conditioning",
-   "Sensitive or over-exfoliated skin"
+   "People dealing with tanning, dark spots or uneven tone"
   ],
   "creator_niches": [
-   "Skincare educators",
-   "Minimal-routine creators",
-   "Makeup artists (prep step)"
+   "Lifestyle vloggers",
+   "Self-care creators",
+   "ASMR creators"
   ],
   "hooks": [
-   "229 people rated this 4.8/5. I tried it to see why.",
-   "The moisturiser I'd hand a friend who's just starting out."
+   "2.5% Kojic Acid, every day for four weeks. Here's my honest diary.",
+   "What Niacinamide actually does, in 30 seconds."
   ],
   "formats": [
-   "Texture swatch with an absorption timer",
-   "Under-makeup wear test",
-   "Night routine reel"
+   "Shower routine ASMR",
+   "Texture and scent first impressions",
+   "Weekly self-care reset"
   ],
   "proof_points": [
-   "Rated 4.8/5 from 229 reviews on the brand site"
+   "2.5% Kojic Acid",
+   "Niacinamide",
+   "Rated 4.5/5 from 8 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
+   "Mention a patch test and gradual introduction, since this contains an active acid or retinoid."
   ],
   "written_by": "rules"
  },
@@ -1360,163 +1400,10 @@
  },
  {
   "product": {
-   "brand": "Bombay Shaving Company",
-   "title": "Fresh Karma Perfume Pen",
-   "category": "Fragrance",
-   "url": "https://www.bombayshavingcompany.com/products/fresh-karma-perfume-pen",
-   "price_inr": 299.0,
-   "mrp_inr": 599.0,
-   "discount_pct": 50.1,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [],
-   "benefits": [
-    "Long-Lasting"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [
-    18
-   ],
-   "rating": 4.64,
-   "review_count": 25.0
-  },
-  "one_liner": "Bombay Shaving Company's ₹299 perfume for all-day wear.",
-  "audience": [
-   "Young professionals building a signature scent",
-   "Festive and gifting shoppers"
-  ],
-  "creator_niches": [
-   "Fragrance reviewers",
-   "Fashion & lifestyle creators"
-  ],
-  "hooks": [
-   "₹299 instead of ₹599: worth it?",
-   "The fragrance I'd hand a friend who's just starting out."
-  ],
-  "formats": [
-   "Describe the scent before showing the bottle",
-   "Longevity check across a day",
-   "Occasion pairing"
-  ],
-  "proof_points": [
-   "18-hour claim on the product page",
-   "Rated 4.6/5 from 25 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Beardo",
-   "title": "Blue Blood Perfume EDP (100ml)",
-   "category": "Fragrance",
-   "url": "https://www.beardo.in/products/beardo-blue-blood-perfume-edp-100ml",
-   "price_inr": 1199.0,
-   "mrp_inr": 2000.0,
-   "discount_pct": 40.1,
-   "size": 100.0,
-   "size_unit": "ml",
-   "price_position": "Premium",
-   "ingredients": [],
-   "benefits": [
-    "Long-Lasting"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [],
-   "rating": 4.75,
-   "review_count": 195.0
-  },
-  "one_liner": "Beardo's ₹1,199 (100 ml) perfume for all-day wear, premium-priced for its category.",
-  "audience": [
-   "Young professionals building a signature scent",
-   "Festive and gifting shoppers"
-  ],
-  "creator_niches": [
-   "Fragrance reviewers",
-   "Fashion & lifestyle creators"
-  ],
-  "hooks": [
-   "195 people rated this 4.8/5. I tried it to see why.",
-   "₹1,199 instead of ₹2,000: worth it?"
-  ],
-  "formats": [
-   "Describe the scent before showing the bottle",
-   "Longevity check across a day",
-   "Occasion pairing"
-  ],
-  "proof_points": [
-   "Rated 4.8/5 from 195 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Beardo",
-   "title": "Godfather Perfume EDP (50ml)",
-   "category": "Fragrance",
-   "url": "https://www.beardo.in/products/beardo-godfather-perfume-edp-50ml",
-   "price_inr": 499.0,
-   "mrp_inr": 699.0,
-   "discount_pct": 28.6,
-   "size": 50.0,
-   "size_unit": "ml",
-   "price_position": "Mid",
-   "ingredients": [],
-   "benefits": [
-    "Long-Lasting"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [],
-   "rating": 4.66,
-   "review_count": 202.0
-  },
-  "one_liner": "Beardo's ₹499 (50 ml) perfume for all-day wear, mid-priced for its category.",
-  "audience": [
-   "Young professionals building a signature scent",
-   "Festive and gifting shoppers"
-  ],
-  "creator_niches": [
-   "Fragrance reviewers",
-   "Fashion & lifestyle creators"
-  ],
-  "hooks": [
-   "202 people rated this 4.7/5. I tried it to see why.",
-   "₹499 instead of ₹699: worth it?"
-  ],
-  "formats": [
-   "Describe the scent before showing the bottle",
-   "Longevity check across a day",
-   "Occasion pairing"
-  ],
-  "proof_points": [
-   "Rated 4.7/5 from 202 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
    "brand": "mCaffeine",
-   "title": "Magnetic Perfume for Men - Aquatic - 100ml",
+   "title": "Cherry Wine Perfume for Women - Citrus Sweet - 100ml",
    "category": "Fragrance",
-   "url": "https://www.mcaffeine.com/products/magnetic-perfume-for-men-aquatic-100ml",
+   "url": "https://www.mcaffeine.com/products/cherry-wine-perfume-for-women-citrus-sweet-100ml",
    "price_inr": 899.0,
    "mrp_inr": 899.0,
    "discount_pct": 0.0,
@@ -1535,8 +1422,8 @@
     12,
     8
    ],
-   "rating": 4.62,
-   "review_count": 128.0
+   "rating": 4.68,
+   "review_count": 154.0
   },
   "one_liner": "mCaffeine's ₹899 (100 ml) perfume for hydration, mid-priced for its category.",
   "audience": [
@@ -1548,7 +1435,7 @@
    "Fashion & lifestyle creators"
   ],
   "hooks": [
-   "128 people rated this 4.6/5. I tried it to see why.",
+   "154 people rated this 4.7/5. I tried it to see why.",
    "The fragrance I'd hand a friend who's just starting out."
   ],
   "formats": [
@@ -1558,7 +1445,60 @@
   ],
   "proof_points": [
    "12-hour claim on the product page",
-   "Rated 4.6/5 from 128 reviews on the brand site"
+   "Rated 4.7/5 from 154 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "mCaffeine",
+   "title": "Multi-Action Moisturiser with Urea & Ceramides - 50g",
+   "category": "Moisturiser",
+   "url": "https://www.mcaffeine.com/products/multi-action-moisturiser-with-urea-ceramides-50g",
+   "price_inr": 449.0,
+   "mrp_inr": 449.0,
+   "discount_pct": 0.0,
+   "size": 50.0,
+   "size_unit": "g",
+   "price_position": "Premium",
+   "ingredients": [
+    "Ceramides"
+   ],
+   "benefits": [
+    "Hydration"
+   ],
+   "free_from": [],
+   "strengths": [],
+   "spf": null,
+   "hours": [],
+   "rating": 4.69,
+   "review_count": 16.0
+  },
+  "one_liner": "mCaffeine's ₹449 (50 g) Ceramides moisturiser for hydration, premium-priced for its category.",
+  "audience": [
+   "Dry or dehydrated skin, long hours in air-conditioning"
+  ],
+  "creator_niches": [
+   "Skincare educators",
+   "Minimal-routine creators",
+   "Makeup artists (prep step)"
+  ],
+  "hooks": [
+   "What Ceramides actually does, in 30 seconds.",
+   "The moisturiser I'd hand a friend who's just starting out."
+  ],
+  "formats": [
+   "Texture swatch with an absorption timer",
+   "Under-makeup wear test",
+   "Night routine reel"
+  ],
+  "proof_points": [
+   "Ceramides",
+   "Rated 4.7/5 from 16 reviews on the brand site"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -1620,38 +1560,84 @@
  },
  {
   "product": {
-   "brand": "mCaffeine",
-   "title": "By the Blues Brightening Perfume Body Lotion - 600ml",
-   "category": "Fragrance",
-   "url": "https://www.mcaffeine.com/products/by-the-blues-brightening-perfume-body-lotion-600ml",
-   "price_inr": 1099.0,
-   "mrp_inr": 1099.0,
+   "brand": "Beardo",
+   "title": "Mocha Shot Lip Balm",
+   "category": "Eye & Lip Care",
+   "url": "https://www.beardo.in/products/beardo-mocha-shot-lip-balm",
+   "price_inr": 299.0,
+   "mrp_inr": 299.0,
    "discount_pct": 0.0,
-   "size": 600.0,
-   "size_unit": "ml",
-   "price_position": "Value",
+   "size": 7.0,
+   "size_unit": "g",
+   "price_position": "Mid",
    "ingredients": [
-    "Niacinamide"
+    "Caffeine"
    ],
    "benefits": [
-    "Brightening",
-    "Hydration",
     "Pigmentation & Dark Spots",
-    "Barrier Repair",
+    "Hydration",
+    "Dandruff"
+   ],
+   "free_from": [],
+   "strengths": [],
+   "spf": null,
+   "hours": [],
+   "rating": 4.71,
+   "review_count": 24.0
+  },
+  "one_liner": "Beardo's ₹299 (7 g) Caffeine lip balm for dark spots and uneven tone, mid-priced for its category.",
+  "audience": [
+   "People dealing with tanning, dark spots or uneven tone",
+   "Dry or dehydrated skin, long hours in air-conditioning",
+   "People with flaky, itchy scalps"
+  ],
+  "creator_niches": [
+   "Skincare educators",
+   "Work-from-home lifestyle creators"
+  ],
+  "hooks": [
+   "What Caffeine actually does, in 30 seconds.",
+   "The eye & lip care I'd hand a friend who's just starting out."
+  ],
+  "formats": [
+   "Night routine close-up",
+   "Week-long check-in"
+  ],
+  "proof_points": [
+   "Caffeine",
+   "Rated 4.7/5 from 24 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Beardo",
+   "title": "Mariner Perfume EDP (50ml)",
+   "category": "Fragrance",
+   "url": "https://www.beardo.in/products/beardo-mariner-perfume-edp",
+   "price_inr": 499.0,
+   "mrp_inr": 799.0,
+   "discount_pct": 37.5,
+   "size": 50.0,
+   "size_unit": "ml",
+   "price_position": "Mid",
+   "ingredients": [],
+   "benefits": [
     "Long-Lasting"
    ],
    "free_from": [],
-   "strengths": [
-    "5% Niacinamide"
-   ],
+   "strengths": [],
    "spf": null,
-   "hours": [
-    72
-   ],
-   "rating": 0.0,
-   "review_count": 0.0
+   "hours": [],
+   "rating": 4.38,
+   "review_count": 66.0
   },
-  "one_liner": "mCaffeine's ₹1,099 (600 ml) 5% Niacinamide body lotion for a brighter glow, value-priced for its category.",
+  "one_liner": "Beardo's ₹499 (50 ml) perfume for all-day wear, mid-priced for its category.",
   "audience": [
    "Young professionals building a signature scent",
    "Festive and gifting shoppers"
@@ -1661,8 +1647,8 @@
    "Fashion & lifestyle creators"
   ],
   "hooks": [
-   "5% Niacinamide, every day for four weeks. Here's my honest diary.",
-   "What Niacinamide actually does, in 30 seconds."
+   "66 people rated this 4.4/5. I tried it to see why.",
+   "₹499 instead of ₹799: worth it?"
   ],
   "formats": [
    "Describe the scent before showing the bottle",
@@ -1670,8 +1656,243 @@
    "Occasion pairing"
   ],
   "proof_points": [
-   "5% Niacinamide",
+   "Rated 4.4/5 from 66 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Beardo",
+   "title": "Body-Acne Clear Bodywash",
+   "category": "Body Care",
+   "url": "https://www.beardo.in/products/beardo-body-acne-clear-bodywash-1",
+   "price_inr": 399.0,
+   "mrp_inr": 399.0,
+   "discount_pct": 0.0,
+   "size": 200.0,
+   "size_unit": "ml",
+   "price_position": "Mid",
+   "ingredients": [],
+   "benefits": [
+    "Acne & Blemishes",
+    "Barrier Repair"
+   ],
+   "free_from": [],
+   "strengths": [],
+   "spf": null,
+   "hours": [],
+   "rating": 4.82,
+   "review_count": 28.0
+  },
+  "one_liner": "Beardo's ₹399 (200 ml) body care for acne-prone skin, mid-priced for its category.",
+  "audience": [
+   "Teens and 20-somethings with oily, acne-prone skin",
+   "Sensitive or over-exfoliated skin"
+  ],
+  "creator_niches": [
+   "Lifestyle vloggers",
+   "Self-care creators",
+   "ASMR creators"
+  ],
+  "hooks": [
+   "The body care I'd hand a friend who's just starting out."
+  ],
+  "formats": [
+   "Shower routine ASMR",
+   "Texture and scent first impressions",
+   "Weekly self-care reset"
+  ],
+  "proof_points": [
+   "Rated 4.8/5 from 28 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Beardo",
+   "title": "De-Tan 2 in 1 Toning Serum",
+   "category": "Serum & Face Oil",
+   "url": "https://www.beardo.in/products/beardo-de-tan-2in1-toning-serum",
+   "price_inr": 499.0,
+   "mrp_inr": 550.0,
+   "discount_pct": 9.3,
+   "size": 30.0,
+   "size_unit": "ml",
+   "price_position": "Mid",
+   "ingredients": [],
+   "benefits": [
+    "Pigmentation & Dark Spots",
+    "Brightening",
+    "Acne & Blemishes"
+   ],
+   "free_from": [],
+   "strengths": [],
+   "spf": null,
+   "hours": [],
+   "rating": 4.57,
+   "review_count": 21.0
+  },
+  "one_liner": "Beardo's ₹499 (30 ml) serum for dark spots and uneven tone, mid-priced for its category.",
+  "audience": [
+   "People dealing with tanning, dark spots or uneven tone",
+   "Skincare beginners after an even, glowing look",
+   "Teens and 20-somethings with oily, acne-prone skin"
+  ],
+  "creator_niches": [
+   "Ingredient-explainer skinfluencers",
+   "Dermatologist creators",
+   "Routine-diary creators"
+  ],
+  "hooks": [
+   "The serum & face oil I'd hand a friend who's just starting out."
+  ],
+  "formats": [
+   "28-day routine diary, same light and angle each week",
+   "30-second ingredient explainer",
+   "Where it goes in an AM/PM layering routine"
+  ],
+  "proof_points": [
+   "Rated 4.6/5 from 21 reviews on the brand site"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Plum",
+   "title": "Volcanic Minerals & 0.5% Salicylic Acid Shampoo For Dandruff-Prone Hair | Pack of 2",
+   "category": "Shampoo & Conditioner",
+   "url": "https://plumgoodness.com/products/volcanic-minerals-0-5-salicylic-acid-shampoo-for-dandruff-prone-hair-copy-1",
+   "price_inr": 1273.0,
+   "mrp_inr": 1698.0,
+   "discount_pct": 25.0,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [
+    "Niacinamide",
+    "Salicylic Acid"
+   ],
+   "benefits": [
+    "Hydration",
+    "Dandruff",
+    "Barrier Repair"
+   ],
+   "free_from": [],
+   "strengths": [
+    "0.5% Salicylic Acid"
+   ],
+   "spf": null,
+   "hours": [
+    72
+   ],
+   "rating": null,
+   "review_count": null
+  },
+  "one_liner": "Plum's ₹1,273 0.5% Salicylic Acid shampoo for hydration.",
+  "audience": [
+   "Dry or dehydrated skin, long hours in air-conditioning",
+   "People with flaky, itchy scalps",
+   "Sensitive or over-exfoliated skin"
+  ],
+  "creator_niches": [
+   "Haircare creators",
+   "Curly-hair community",
+   "Wash-day vloggers"
+  ],
+  "hooks": [
+   "0.5% Salicylic Acid, every day for four weeks. Here's my honest diary.",
+   "What Niacinamide actually does, in 30 seconds.",
+   "₹1,273 instead of ₹1,698: worth it?"
+  ],
+  "formats": [
+   "Wash-day routine",
+   "Ingredient explainer",
+   "Week-long hair-feel check-ins"
+  ],
+  "proof_points": [
+   "0.5% Salicylic Acid",
+   "Niacinamide",
    "72-hour claim on the product page"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
+   "Mention a patch test and gradual introduction, since this contains an active acid or retinoid."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Plum",
+   "title": "Black Rice & 10% Niacinamide-TXA Night Clarity Jelly Serum | Pack of 2",
+   "category": "Serum & Face Oil",
+   "url": "https://plumgoodness.com/products/black-rice-10-niacinamide-txa-night-clarity-jelly-serum-pack-of-2",
+   "price_inr": 973.0,
+   "mrp_inr": 1298.0,
+   "discount_pct": 25.0,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [
+    "Niacinamide"
+   ],
+   "benefits": [
+    "Oil Control",
+    "Pigmentation & Dark Spots",
+    "Acne & Blemishes",
+    "Hydration",
+    "Sun Protection",
+    "Barrier Repair"
+   ],
+   "free_from": [],
+   "strengths": [
+    "10% Niacinamide",
+    "7% Niacinamide"
+   ],
+   "spf": null,
+   "hours": [],
+   "rating": null,
+   "review_count": null
+  },
+  "one_liner": "Plum's ₹973 10% Niacinamide serum for oily skin.",
+  "audience": [
+   "Oily-skin users in humid cities",
+   "People dealing with tanning, dark spots or uneven tone",
+   "Teens and 20-somethings with oily, acne-prone skin"
+  ],
+  "creator_niches": [
+   "Ingredient-explainer skinfluencers",
+   "Dermatologist creators",
+   "Routine-diary creators"
+  ],
+  "hooks": [
+   "10% Niacinamide, every day for four weeks. Here's my honest diary.",
+   "What Niacinamide actually does, in 30 seconds.",
+   "₹973 instead of ₹1,298: worth it?"
+  ],
+  "formats": [
+   "28-day routine diary, same light and angle each week",
+   "30-second ingredient explainer",
+   "Where it goes in an AM/PM layering routine"
+  ],
+  "proof_points": [
+   "10% Niacinamide",
+   "7% Niacinamide"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -1749,41 +1970,38 @@
  {
   "product": {
    "brand": "Pilgrim",
-   "title": "3% AHA + BHA + PHA Detan Gel Face Wash",
+   "title": "Korean Rice Water Hydra Glow Gel Face Wash",
    "category": "Face Wash",
-   "url": "https://discoverpilgrim.com/products/3-aha-bha-pha-detan-gel-face-wash",
-   "price_inr": 364.0,
-   "mrp_inr": 399.0,
-   "discount_pct": 8.8,
-   "size": 150.0,
+   "url": "https://discoverpilgrim.com/products/korean-rice-water-hydra-glow-gel-face-wash-2",
+   "price_inr": 245.0,
+   "mrp_inr": 245.0,
+   "discount_pct": 0.0,
+   "size": 100.0,
    "size_unit": "ml",
-   "price_position": "Value",
+   "price_position": "Mid",
    "ingredients": [
-    "Salicylic Acid",
-    "Lactic Acid",
-    "AHA",
-    "Centella / Cica"
+    "Niacinamide",
+    "Hyaluronic Acid",
+    "Rice Water"
    ],
    "benefits": [
-    "Pigmentation & Dark Spots",
+    "Brightening",
     "Hydration",
-    "Barrier Repair"
+    "Pigmentation & Dark Spots",
+    "Long-Lasting"
    ],
    "free_from": [],
-   "strengths": [
-    "3% AHA",
-    "3% Salicylic Acid"
-   ],
+   "strengths": [],
    "spf": null,
    "hours": [],
    "rating": null,
    "review_count": null
   },
-  "one_liner": "Pilgrim's ₹364 (150 ml) 3% AHA face wash for dark spots and uneven tone, value-priced for its category.",
+  "one_liner": "Pilgrim's ₹245 (100 ml) Niacinamide face wash for a brighter glow, mid-priced for its category.",
   "audience": [
-   "People dealing with tanning, dark spots or uneven tone",
+   "Skincare beginners after an even, glowing look",
    "Dry or dehydrated skin, long hours in air-conditioning",
-   "Sensitive or over-exfoliated skin"
+   "People dealing with tanning, dark spots or uneven tone"
   ],
   "creator_niches": [
    "Skincare educators",
@@ -1791,8 +2009,8 @@
    "Men's grooming creators"
   ],
   "hooks": [
-   "3% AHA, every day for four weeks. Here's my honest diary.",
-   "What Salicylic Acid actually does, in 30 seconds."
+   "What Niacinamide actually does, in 30 seconds.",
+   "The face wash I'd hand a friend who's just starting out."
   ],
   "formats": [
    "Texture close-up and after-wash skin feel",
@@ -1800,10 +2018,74 @@
    "Oily-skin check-ins through the day"
   ],
   "proof_points": [
-   "3% AHA",
-   "3% Salicylic Acid",
-   "Lactic Acid",
-   "Centella / Cica"
+   "Niacinamide",
+   "Hyaluronic Acid",
+   "Rice Water"
+  ],
+  "guardrails": [
+   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
+   "Only use the proof points listed here; they are the claims printed on the product page.",
+   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
+  ],
+  "written_by": "rules"
+ },
+ {
+  "product": {
+   "brand": "Plum",
+   "title": "Volcanic Minerals & 0.5% Salicylic Acid Shampoo For Dandruff-Prone Hair**",
+   "category": "Shampoo & Conditioner",
+   "url": "https://plumgoodness.com/products/volcanic-minerals-0-5-salicylic-acid-shampoo-for-dandruff-prone-hair",
+   "price_inr": 79.0,
+   "mrp_inr": 220.0,
+   "discount_pct": 64.1,
+   "size": null,
+   "size_unit": null,
+   "price_position": null,
+   "ingredients": [
+    "Niacinamide",
+    "Salicylic Acid"
+   ],
+   "benefits": [
+    "Dandruff",
+    "Hydration",
+    "Barrier Repair"
+   ],
+   "free_from": [],
+   "strengths": [
+    "0.5% Salicylic Acid"
+   ],
+   "spf": null,
+   "hours": [
+    72
+   ],
+   "rating": null,
+   "review_count": null
+  },
+  "one_liner": "Plum's ₹79 0.5% Salicylic Acid shampoo for dandruff.",
+  "audience": [
+   "People with flaky, itchy scalps",
+   "Dry or dehydrated skin, long hours in air-conditioning",
+   "Sensitive or over-exfoliated skin"
+  ],
+  "creator_niches": [
+   "Haircare creators",
+   "Curly-hair community",
+   "Wash-day vloggers"
+  ],
+  "hooks": [
+   "0.5% Salicylic Acid, every day for four weeks. Here's my honest diary.",
+   "What Niacinamide actually does, in 30 seconds.",
+   "₹79 instead of ₹220: worth it?"
+  ],
+  "formats": [
+   "Wash-day routine",
+   "Ingredient explainer",
+   "Week-long hair-feel check-ins"
+  ],
+  "proof_points": [
+   "0.5% Salicylic Acid",
+   "Niacinamide",
+   "72-hour claim on the product page"
   ],
   "guardrails": [
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
@@ -1943,307 +2225,6 @@
    "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
    "Only use the proof points listed here; they are the claims printed on the product page.",
    "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Plum",
-   "title": "Black Rice & 10% Niacinamide-TXA Night Clarity Jelly Serum | Pack of 2",
-   "category": "Serum & Face Oil",
-   "url": "https://plumgoodness.com/products/black-rice-10-niacinamide-txa-night-clarity-jelly-serum-pack-of-2",
-   "price_inr": 1064.0,
-   "mrp_inr": 1298.0,
-   "discount_pct": 18.0,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [
-    "Niacinamide"
-   ],
-   "benefits": [
-    "Oil Control",
-    "Pigmentation & Dark Spots",
-    "Acne & Blemishes",
-    "Hydration",
-    "Sun Protection",
-    "Barrier Repair"
-   ],
-   "free_from": [],
-   "strengths": [
-    "10% Niacinamide",
-    "7% Niacinamide"
-   ],
-   "spf": null,
-   "hours": [],
-   "rating": null,
-   "review_count": null
-  },
-  "one_liner": "Plum's ₹1,064 10% Niacinamide serum for oily skin.",
-  "audience": [
-   "Oily-skin users in humid cities",
-   "People dealing with tanning, dark spots or uneven tone",
-   "Teens and 20-somethings with oily, acne-prone skin"
-  ],
-  "creator_niches": [
-   "Ingredient-explainer skinfluencers",
-   "Dermatologist creators",
-   "Routine-diary creators"
-  ],
-  "hooks": [
-   "10% Niacinamide, every day for four weeks. Here's my honest diary.",
-   "What Niacinamide actually does, in 30 seconds."
-  ],
-  "formats": [
-   "28-day routine diary, same light and angle each week",
-   "30-second ingredient explainer",
-   "Where it goes in an AM/PM layering routine"
-  ],
-  "proof_points": [
-   "10% Niacinamide",
-   "7% Niacinamide"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page.",
-   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Plum",
-   "title": "Rice Water & 5% Niacinamide Cloud Whip Face Mask",
-   "category": "Face Mask & Scrub",
-   "url": "https://plumgoodness.com/products/rice-water-5-niacinamide-cloud-whip-face-mask-copy",
-   "price_inr": 499.0,
-   "mrp_inr": 499.0,
-   "discount_pct": 0.0,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [
-    "Niacinamide",
-    "Rice Water",
-    "Squalane"
-   ],
-   "benefits": [
-    "Hydration",
-    "Barrier Repair"
-   ],
-   "free_from": [],
-   "strengths": [
-    "5% Niacinamide"
-   ],
-   "spf": null,
-   "hours": [],
-   "rating": null,
-   "review_count": null
-  },
-  "one_liner": "Plum's ₹499 5% Niacinamide face mask for hydration.",
-  "audience": [
-   "Dry or dehydrated skin, long hours in air-conditioning",
-   "Sensitive or over-exfoliated skin"
-  ],
-  "creator_niches": [
-   "Self-care Sunday creators",
-   "Skincare educators"
-  ],
-  "hooks": [
-   "5% Niacinamide, every day for four weeks. Here's my honest diary.",
-   "What Niacinamide actually does, in 30 seconds."
-  ],
-  "formats": [
-   "Self-care Sunday routine",
-   "Texture and after-feel close-ups"
-  ],
-  "proof_points": [
-   "5% Niacinamide",
-   "Rice Water",
-   "Squalane"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Plum",
-   "title": "Black Rice & 10% Niacinamide-TXA Night Clarity Jelly Serum",
-   "category": "Serum & Face Oil",
-   "url": "https://plumgoodness.com/products/black-rice-10-niacinamide-txa-night-clarity-jelly-serum-try-on",
-   "price_inr": 284.0,
-   "mrp_inr": 299.0,
-   "discount_pct": 5.0,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [
-    "Niacinamide"
-   ],
-   "benefits": [
-    "Brightening",
-    "Hydration",
-    "Pigmentation & Dark Spots",
-    "Acne & Blemishes",
-    "Sun Protection",
-    "Barrier Repair"
-   ],
-   "free_from": [],
-   "strengths": [
-    "10% Niacinamide",
-    "7% Niacinamide"
-   ],
-   "spf": null,
-   "hours": [],
-   "rating": null,
-   "review_count": null
-  },
-  "one_liner": "Plum's ₹284 10% Niacinamide serum for a brighter glow.",
-  "audience": [
-   "Skincare beginners after an even, glowing look",
-   "Dry or dehydrated skin, long hours in air-conditioning",
-   "People dealing with tanning, dark spots or uneven tone"
-  ],
-  "creator_niches": [
-   "Ingredient-explainer skinfluencers",
-   "Dermatologist creators",
-   "Routine-diary creators"
-  ],
-  "hooks": [
-   "10% Niacinamide, every day for four weeks. Here's my honest diary.",
-   "What Niacinamide actually does, in 30 seconds."
-  ],
-  "formats": [
-   "28-day routine diary, same light and angle each week",
-   "30-second ingredient explainer",
-   "Where it goes in an AM/PM layering routine"
-  ],
-  "proof_points": [
-   "10% Niacinamide",
-   "7% Niacinamide"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page.",
-   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "Plum",
-   "title": "Volcanic Minerals & 0.5% Salicylic Acid Shampoo For Dandruff-Prone Hair**",
-   "category": "Shampoo & Conditioner",
-   "url": "https://plumgoodness.com/products/volcanic-minerals-0-5-salicylic-acid-shampoo-for-dandruff-prone-hair",
-   "price_inr": 79.0,
-   "mrp_inr": 220.0,
-   "discount_pct": 64.1,
-   "size": null,
-   "size_unit": null,
-   "price_position": null,
-   "ingredients": [
-    "Niacinamide",
-    "Salicylic Acid"
-   ],
-   "benefits": [
-    "Dandruff",
-    "Hydration",
-    "Barrier Repair"
-   ],
-   "free_from": [],
-   "strengths": [
-    "0.5% Salicylic Acid"
-   ],
-   "spf": null,
-   "hours": [
-    72
-   ],
-   "rating": null,
-   "review_count": null
-  },
-  "one_liner": "Plum's ₹79 0.5% Salicylic Acid shampoo for dandruff.",
-  "audience": [
-   "People with flaky, itchy scalps",
-   "Dry or dehydrated skin, long hours in air-conditioning",
-   "Sensitive or over-exfoliated skin"
-  ],
-  "creator_niches": [
-   "Haircare creators",
-   "Curly-hair community",
-   "Wash-day vloggers"
-  ],
-  "hooks": [
-   "0.5% Salicylic Acid, every day for four weeks. Here's my honest diary.",
-   "What Niacinamide actually does, in 30 seconds.",
-   "₹79 instead of ₹220: worth it?"
-  ],
-  "formats": [
-   "Wash-day routine",
-   "Ingredient explainer",
-   "Week-long hair-feel check-ins"
-  ],
-  "proof_points": [
-   "0.5% Salicylic Acid",
-   "Niacinamide",
-   "72-hour claim on the product page"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page.",
-   "No treatment language ('cures acne', 'stops hair fall'); present results as personal experience.",
-   "Mention a patch test and gradual introduction, since this contains an active acid or retinoid."
-  ],
-  "written_by": "rules"
- },
- {
-  "product": {
-   "brand": "mCaffeine",
-   "title": "Brightening Raspberry Rush Body Wash - 25 ml",
-   "category": "Body Care",
-   "url": "https://www.mcaffeine.com/products/brightening-raspberry-rush-body-wash-25-ml",
-   "price_inr": 129.0,
-   "mrp_inr": 129.0,
-   "discount_pct": 0.0,
-   "size": 25.0,
-   "size_unit": "ml",
-   "price_position": "Premium",
-   "ingredients": [],
-   "benefits": [
-    "Brightening"
-   ],
-   "free_from": [],
-   "strengths": [],
-   "spf": null,
-   "hours": [],
-   "rating": 4.5,
-   "review_count": 4.0
-  },
-  "one_liner": "mCaffeine's ₹129 (25 ml) body care for a brighter glow, premium-priced for its category.",
-  "audience": [
-   "Skincare beginners after an even, glowing look"
-  ],
-  "creator_niches": [
-   "Lifestyle vloggers",
-   "Self-care creators",
-   "ASMR creators"
-  ],
-  "hooks": [
-   "The body care I'd hand a friend who's just starting out."
-  ],
-  "formats": [
-   "Shower routine ASMR",
-   "Texture and scent first impressions",
-   "Weekly self-care reset"
-  ],
-  "proof_points": [
-   "Rated 4.5/5 from 4 reviews on the brand site"
-  ],
-  "guardrails": [
-   "Disclose the paid partnership upfront (#ad / #collab), as ASCI's influencer guidelines require.",
-   "Only use the proof points listed here; they are the claims printed on the product page."
   ],
   "written_by": "rules"
  }

@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-02T11:28:12+00:00",
+ "generated_at": "2026-11-07T10:47:48+00:00",
  "sample": false,
  "sites_checked": 10,
  "sites_ok": 10,
  "sites_skipped": [],
  "rate_limited": [],
- "catalog_products": 2510,
+ "catalog_products": 2691,
  "pages_parsed": 400,
- "clean_products": 2343,
- "briefs": 38,
- "requests": 435,
+ "clean_products": 2519,
+ "briefs": 37,
+ "requests": 436,
  "cache_hits": 0,
  "retries": 0
 }
